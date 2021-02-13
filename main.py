@@ -8,6 +8,6 @@ from dotenv import load_dotenv
 
 
 
-with open("keys.env") as env_file:
+with open(".env") as env_file:
 
     api_key, api_secret_key, bearer_token = load_dotenv(env_file, Verbose = True)
